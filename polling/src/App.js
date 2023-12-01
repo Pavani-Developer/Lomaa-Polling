@@ -83,9 +83,10 @@ const App = () => {
           </div>
           </Header>
           <Routes>
-            <Route path="/" element={<PrivateRoute element={<Dashboard />} />} />
+            {/*<Route path="/" element={<PrivateRoute element={<Dashboard />} />} />*/}
             {/*<Route path="/login" element={<LoginPage onLogin={handleLogin} />} />*/}
             <Route path="/mandal/" element={<Mandals />} />
+            <Route path="/dashboard/" element={<Dashboard />} />
             <Route path="/sachivalayam/" element={<Sachivalayam />} />
             <Route path="/divisions/" element={<Divisions />} />
             <Route path="/sachivalayam/addsach/" element={<SachivalayamNew />} />
