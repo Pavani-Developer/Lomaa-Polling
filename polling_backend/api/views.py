@@ -7,9 +7,11 @@ from rest_framework import status
 
 #https://github.com/Pavani-Developer/Lomaa-Polling.git
 # 
+#sdfghjkl
 @api_view(['GET'])
 def getUserData(re):
     try:
+        
         mycon = db.connect(user='admin', password='20A25B0318', host='database-2.cx7du5eaphdp.us-east-1.rds.amazonaws.com', database='ap_survey')
         cursor=mycon.cursor()
         cursor.execute('call get_users();')
