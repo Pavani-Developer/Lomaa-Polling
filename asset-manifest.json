@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Lomaa-Polling/static/css/main.c1600063.css",
+    "main.js": "/Lomaa-Polling/static/js/main.48646396.js",
+    "static/js/787.fd726d44.chunk.js": "/Lomaa-Polling/static/js/787.fd726d44.chunk.js",
+    "static/media/mla.png": "/Lomaa-Polling/static/media/mla.f6dd80e708db10326181.png",
+    "static/media/background.jpg": "/Lomaa-Polling/static/media/background.b976d325d38c2c47d3a0.jpg",
+    "static/media/mohit.png": "/Lomaa-Polling/static/media/mohit.2337cc7253baeb7577f1.png",
+    "static/media/cm.png": "/Lomaa-Polling/static/media/cm.4f0ae74c3fd950f54be3.png",
+    "static/media/partylogo.jpg": "/Lomaa-Polling/static/media/partylogo.cd0722e32be4042f4c6a.jpg",
+    "index.html": "/Lomaa-Polling/index.html",
+    "main.c1600063.css.map": "/Lomaa-Polling/static/css/main.c1600063.css.map",
+    "main.48646396.js.map": "/Lomaa-Polling/static/js/main.48646396.js.map",
+    "787.fd726d44.chunk.js.map": "/Lomaa-Polling/static/js/787.fd726d44.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1600063.css",
+    "static/js/main.48646396.js"
+  ]
+}
