@@ -5,7 +5,8 @@ from rest_framework.response import Response
 from django.db import connection
 from rest_framework import status 
 
-#https://github.com/Pavani-Developer/LOMAA-Project.git
+#https://github.com/Pavani-Developer/Lomaa-Polling.git
+# 
 @api_view(['GET'])
 def getUserData(re):
     try:
