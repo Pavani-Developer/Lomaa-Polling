@@ -43,17 +43,17 @@ const App = () => {
     setCollapsed(!collapsed);
   };
 
-  const handleLogin = () => {
-    setAuthenticated(true);
-  };
+  // const handleLogin = () => {
+  //   setAuthenticated(true);
+  // };
 
-  const PrivateRoute = ({ element, ...rest }) => {
-    return authenticated ? element : <Navigate to="/" />;
-  };
+  // const PrivateRoute = ({ element, ...rest }) => {
+  //   return authenticated ? element : <Navigate to="/" />;
+  // };
 
-  if (!authenticated) {
-    return <LoginPage onLogin={handleLogin} />;
-  }
+  // if (!authenticated) {
+  //   return <LoginPage onLogin={handleLogin} />;
+  // }
 
   return (
     
@@ -84,7 +84,7 @@ const App = () => {
           </Header>
           <Routes>
             <Route path="/" element={<PrivateRoute element={<Dashboard />} />} />
-            <Route path="/login" element={<LoginPage onLogin={handleLogin} />} />
+            {/*<Route path="/login" element={<LoginPage onLogin={handleLogin} />} />*/}
             <Route path="/mandal/" element={<Mandals />} />
             <Route path="/sachivalayam/" element={<Sachivalayam />} />
             <Route path="/divisions/" element={<Divisions />} />

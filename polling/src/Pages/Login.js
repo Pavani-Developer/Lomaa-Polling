@@ -82,10 +82,10 @@ const LoginPage = ({ onLogin, onResetPassword }) => {
             <Input.Password size="large" placeholder="Password" />
           </Form.Item>
           <Form.Item>
-            <ReCAPTCHA
+            {/*<ReCAPTCHA
               sitekey="6LeP4x4pAAAAAEO5TRdZc7yfTJEBl4cdvWCE7jus"
               onChange={handleRecaptchaChange}
-            />
+      />*/}
           </Form.Item>
           <Form.Item>
             <Button type="primary" htmlType="submit" block size="large">
