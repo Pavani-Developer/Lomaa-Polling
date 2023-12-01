@@ -89,11 +89,11 @@ const LoginPage = ({ onLogin, onResetPassword }) => {
           </Form.Item>
           <Form.Item>
             <Button type="primary" htmlType="submit" block size="large">
-              Login
+              <Link to ='dashboard/'>Login</Link>
             </Button>
           </Form.Item>
           <div style={{ textAlign: 'center' }}>
-            <Button type="link" onClick={handleResetPasswordClick}>
+            <Button type="link">
               Reset Password
             </Button>
           </div>
