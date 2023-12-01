@@ -3,6 +3,8 @@ import { Form, Input, Button, Typography, Alert } from 'antd';
 import ReCAPTCHA from "react-google-recaptcha";
 import ResetPasswordForm from './Resetpassword';
 import '../Styles/Login.css'
+import { Link } from 'react-router-dom';
+
 
 const { Title } = Typography;
 
@@ -89,7 +91,7 @@ const LoginPage = ({ onLogin, onResetPassword }) => {
           </Form.Item>
           <Form.Item>
             <Button type="primary" htmlType="submit" block size="large">
-              <Link to ='dashboard/'>Login</Link>
+              <Link to ='/'>Login</Link>
             </Button>
           </Form.Item>
           <div style={{ textAlign: 'center' }}>
